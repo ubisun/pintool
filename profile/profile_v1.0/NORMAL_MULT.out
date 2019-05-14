@@ -1,0 +1,7 @@
+              Procedure           Image            Address        Calls Instructions
+               __muldc3   libgcc_s.so.1       7f7825a60e90        32768       819200
+_ZN10TestScheme14testProfileInsElllPc       TestHEAAN             406cb0            0       327687
+_Z10normalMultSt7complexIdES0_       TestHEAAN             406250        32768       327680
+      _Z12startProfilei       TestHEAAN             4061f0            1            4
+           __muldc3@plt       TestHEAAN             403ec0        32768        32770
+                   .plt       TestHEAAN             403dc0            1            2

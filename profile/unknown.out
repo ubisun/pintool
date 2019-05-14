@@ -1,0 +1,166 @@
+              Procedure           Image            Address        Calls Instructions
+              __madvise       libc.so.6       7f6858307800            1            5
+               mprotect       libc.so.6       7f6858307770        90864       454317
+                 munmap       libc.so.6       7f6858307740           35          175
+                 mmap64       libc.so.6       7f6858307680           26          852
+                 __sbrk       libc.so.6       7f6858302e80         1326        37056
+                    brk       libc.so.6       7f6858302e10         1318        15816
+     __default_morecore       libc.so.6       7f685828d8c0         1326         9282
+                realloc       libc.so.6       7f685828a6c0       655310     54053065
+                  cfree       libc.so.6       7f685828a4f0      9173374    249966820
+          __libc_malloc       libc.so.6       7f685828a130      9166967    448275606
+      __lll_unlock_wake libpthread.so.0       7f68585e02f0          448         4484
+        __lll_lock_wait libpthread.so.0       7f68585e0250           48         1008
+__pthread_disable_asynccancel libpthread.so.0       7f68585e01c0          402         4800
+__pthread_enable_asynccancel libpthread.so.0       7f68585e0160          402         4422
+  __pthread_setspecific libpthread.so.0       7f68585de360            5          170
+   __pthread_key_create libpthread.so.0       7f68585de230            1          208
+    pthread_cond_signal libpthread.so.0       7f68585dd9c0          408        12144
+      pthread_cond_wait libpthread.so.0       7f68585dd2a0          402        28819
+__pthread_mutex_cond_lock libpthread.so.0       7f68585dbc10          401        10134
+   pthread_mutex_unlock libpthread.so.0       7f68585db4c0          813        15523
+__pthread_mutex_unlock_usercnt libpthread.so.0       7f68585db3c0          402         7638
+     pthread_mutex_lock libpthread.so.0       7f68585d9d40          816        24480
+                  frexp       libm.so.6       7f6858a2fb80           10          230
+_ZNSt18condition_variable10notify_oneEv  libstdc++.so.6       7f6858dc57b0          408         2448
+_ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE  libstdc++.so.6       7f6858dc5790          402         2807
+                  _Znam  libstdc++.so.6       7f6858da1280          306          306
+    _ZnwmRKSt9nothrow_t  libstdc++.so.6       7f6858da1230            5           85
+                  _Znwm  libstdc++.so.6       7f6858da11d0          306         3366
+    __cxa_guard_release  libstdc++.so.6       7f6858da0fb0            1           15
+    __cxa_guard_acquire  libstdc++.so.6       7f6858da0e30            1           30
+                 _ZdaPv  libstdc++.so.6       7f6858d9f350          306          306
+                 _ZdlPv  libstdc++.so.6       7f6858d9f320          306          306
+  pthread_cond_wait@plt  libstdc++.so.6       7f6858d995c0          402          402
+               free@plt  libstdc++.so.6       7f6858d983b0          306          306
+             _ZdlPv@plt  libstdc++.so.6       7f6858d97cc0          306          306
+             malloc@plt  libstdc++.so.6       7f6858d97af0          311          311
+pthread_cond_signal@plt  libstdc++.so.6       7f6858d97760          408          408
+              _Znwm@plt  libstdc++.so.6       7f6858d97690          306          306
+     __gmpn_invert_limb    libgmp.so.10       7f685911f4c0      7863736    314258072
+           __gmpn_copyi    libgmp.so.10       7f685911f286     16643683    583194476
+    __gmpn_sbpi1_div_qr    libgmp.so.10       7f6859114c20      7601571   8898919208
+         __gmpn_tdiv_qr    libgmp.so.10       7f68590f90f0     17167669   4596172351
+    __gmpn_mul_basecase    libgmp.so.10       7f68590eea00     16511133  13498147724
+             __gmpn_mul    libgmp.so.10       7f68590e8cc0     16511309    657816087
+        __gmpn_divrem_2    libgmp.so.10       7f68590e7980       262109     30921727
+          __gmpn_rshift    libgmp.so.10       7f68590e6c80      8878903   1226102154
+          __gmpn_lshift    libgmp.so.10       7f68590e6a60     47556176   4269921400
+        __gmpn_submul_1    libgmp.so.10       7f68590e6210    150456860  17250790914
+        __gmpn_addmul_1    libgmp.so.10       7f68590e6100    395819124  99043949451
+           __gmpn_sub_n    libgmp.so.10       7f68590e5b10     44394268   4716361790
+           __gmpn_add_n    libgmp.so.10       7f68590e5670      6910288    580606452
+    _Z13_ntl_IsFinitePd       IDASH2017             467670           20          280
+_Z12_ntl_gmulmodP17_ntl_gbigint_bodyS0_S0_PS0_       IDASH2017             45ab80      1179374     49257602
+_Z9_ntl_gmulP17_ntl_gbigint_bodyS0_PS0_       IDASH2017             459320      1179318     98903464
+_Z9_ntl_gmodP17_ntl_gbigint_bodyS0_PS0_       IDASH2017             458870     15989671     47967820
+_Z9_ntl_gdivP17_ntl_gbigint_bodyS0_PS0_S1_       IDASH2017             4581f0     17169452   2458428223
+_Z12_ntl_gaddmodP17_ntl_gbigint_bodyS0_S0_PS0_       IDASH2017             457780      9695339    328009722
+_Z13_ntl_gdoubtozdPP17_ntl_gbigint_body       IDASH2017             456420           10         1310
+_Z20_ntl_quick_accum_endP17_ntl_gbigint_body       IDASH2017             455070      7208752    107329834
+_Z23_ntl_quick_accum_muladdP17_ntl_gbigint_bodyS0_l       IDASH2017             455010    396183460  10543222917
+_Z22_ntl_quick_accum_beginPP17_ntl_gbigint_bodyl       IDASH2017             454f80      7208685   1744153723
+_Z33_ntl_general_rem_one_struct_applyP17_ntl_gbigint_bodylP27_ntl_general_rem_one_struct       IDASH2017             454320    241062290  36988273528
+_Z22_ntl_ground_correctionP17_ntl_gbigint_bodyll       IDASH2017             452f20           10          260
+_Z12_ntl_gsubposP17_ntl_gbigint_bodyS0_PS0_       IDASH2017             452780      3013082    185448494
+_Z9_ntl_gsubP17_ntl_gbigint_bodyS0_PS0_       IDASH2017             452230      7728795    842250624
+_Z10_ntl_gsaddP17_ntl_gbigint_bodylPS0_       IDASH2017             4518b0           15          660
+_Z9_ntl_gaddP17_ntl_gbigint_bodyS0_PS0_       IDASH2017             451370      9695420    867603486
+_Z12_ntl_glshiftP17_ntl_gbigint_bodylPS0_       IDASH2017             451130           30         1919
+_Z13_ntl_gmakeoddPP17_ntl_gbigint_body       IDASH2017             451090           20          764
+_Z12_ntl_grshiftP17_ntl_gbigint_bodylPS0_       IDASH2017             450ec0      7726082    507916832
+_Z13_ntl_gcompareP17_ntl_gbigint_bodyS0_       IDASH2017             450dd0     16904067    343309239
+_Z11_ntl_gintozlPP17_ntl_gbigint_body       IDASH2017             450c20           10          257
+_Z12_ntl_gnegatePP17_ntl_gbigint_body       IDASH2017             450c10      3228356     16132902
+_Z10_ntl_g2logP17_ntl_gbigint_body       IDASH2017             450690           40          840
+_Z9_ntl_goddP17_ntl_gbigint_body       IDASH2017             450150           30          240
+_Z10_ntl_gcopyP17_ntl_gbigint_bodyPS0_       IDASH2017             44fc60     22143521   4579779779
+_Z10_ntl_gfreeP17_ntl_gbigint_body       IDASH2017             44fc20      9172297     82357218
+_Z15_ntl_gsetlengthPP17_ntl_gbigint_bodyl       IDASH2017             44f030      9828214    446588230
+_ZN3NTL9RoundToZZERNS_2ZZERKNS_2RRE       IDASH2017             437e80           10          378
+ _ZN3NTL4convERNS_2RREd       IDASH2017             436370           10          457
+_ZN3NTL8ConvPrecERNS_2RRERKS0_l       IDASH2017             434f60           10          240
+_ZN3NTL6MakeRRERNS_2RRERKNS_2ZZEl       IDASH2017             434e30           10          150
+_ZN3NTLL10normalize1ERNS_2RRERKNS_2ZZElll       IDASH2017             434c30           30         1475
+_ZN14EvaluatorUtils11scaleUpToZZEdl       IDASH2017             434630           10          390
+_ZN6Scheme15rightRotateFastER10CiphertextS1_l       IDASH2017             42ae80            4           16
+_ZN6Scheme14leftRotateFastER10CiphertextS1_l       IDASH2017             42a270           34     42178101
+_ZN6Scheme17modDownToAndEqualER10Ciphertextl       IDASH2017             42a1b0           10          370
+_ZN6Scheme9modDownToER10CiphertextS1_l       IDASH2017             42a0d0            2           90
+_ZN6Scheme17reScaleByAndEqualER10Ciphertextl       IDASH2017             429ea0           17          323
+_ZN6Scheme21multByPolyNTTAndEqualER10CiphertextPmll       IDASH2017             429960            1           55
+_ZN6Scheme19multByConstAndEqualER10Ciphertextdl       IDASH2017             429230            3          147
+_ZN6Scheme11multByConstER10CiphertextS1_dl       IDASH2017             428fc0            6          342
+_ZN6Scheme6squareER10CiphertextS1_       IDASH2017             428220            2      3736116
+_ZN6Scheme12multAndEqualER10CiphertextS1_       IDASH2017             427aa0            6     11208573
+_ZN6Scheme3subER10CiphertextS1_S1_       IDASH2017             426e90            2           94
+_ZN6Scheme16addConstAndEqualER10Ciphertextdl       IDASH2017             426af0            1           43
+_ZN6Scheme11addAndEqualER10CiphertextS1_       IDASH2017             4266d0           40         1560
+_ZN14RingMultiplier9squareNTTEPN3NTL2ZZEPmlRKS1_       IDASH2017             422c00            4     28313087
+_ZN14RingMultiplier15multNTTAndEqualEPN3NTL2ZZEPmlRKS1_       IDASH2017             421ca0            2      8389307
+_ZN14RingMultiplier8multDNTTEPN3NTL2ZZEPmS3_lRKS1_       IDASH2017             420de0          104   7813593895
+_ZN14RingMultiplier11reconstructEPN3NTL2ZZEPmlRKS1_       IDASH2017             41f4f0          110  10687071948
+_ZN14RingMultiplier14addNTTAndEqualEPmS0_l       IDASH2017             41f470           12    226047940
+_ZN14RingMultiplier3CRTEPmPN3NTL2ZZEl       IDASH2017             41ef30           70   2070226839
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN14RingMultiplier8multDNTTEPNS_2ZZEPmS5_lRKS3_EUlllE_E3runEl       IDASH2017             41edd0           97    827199296
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN14RingMultiplier9squareNTTEPNS_2ZZEPmlRKS3_EUlllE_E3runEl       IDASH2017             41ec90           28    168992770
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN14RingMultiplier15multNTTAndEqualEPNS_2ZZEPmlRKS3_EUlllE_E3runEl       IDASH2017             41e500           14     59018132
+_ZN14RingMultiplier4INTTEPml       IDASH2017             41e000         6049  59979549763
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN14RingMultiplier3CRTEPmPNS_2ZZElEUlllE_E3runEl       IDASH2017             41df00           70    297177533
+_ZN14RingMultiplier3NTTEPml       IDASH2017             41dda0         3685  44671802032
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN14RingMultiplier11reconstructEPNS_2ZZEPmlRKS3_EUlllE_E3runEl       IDASH2017             41da70          139   1800429334
+_ZN4Ring10leftRotateEPN3NTL2ZZES2_l       IDASH2017             41b140           68    100976230
+_ZN4Ring18rightShiftAndEqualEPN3NTL2ZZEl       IDASH2017             41b100          118     53998404
+_ZN4Ring19multByConstAndEqualEPN3NTL2ZZERS1_RKS1_       IDASH2017             41ad90            6      3141373
+_ZN4Ring11multByConstEPN3NTL2ZZES2_RS1_RKS1_       IDASH2017             41ad40           12      7071526
+_ZN4Ring11subAndEqualEPN3NTL2ZZES2_RKS1_       IDASH2017             41a3d0           12     14929969
+_ZN4Ring3subEPN3NTL2ZZES2_S2_RKS1_       IDASH2017             41a300            4      4682215
+_ZN4Ring11addAndEqualEPN3NTL2ZZES2_RKS1_       IDASH2017             41a2b0          132     77664370
+_ZN4Ring11modAndEqualEPN3NTL2ZZERKS1_       IDASH2017             419ff0           20      9169094
+_ZN4Ring3modEPN3NTL2ZZES2_RKS1_       IDASH2017             419ec0            4      4675980
+_ZN4Ring9squareNTTEPN3NTL2ZZEPmlRKS1_       IDASH2017             419ea0            4            8
+_ZN4Ring15multNTTAndEqualEPN3NTL2ZZEPmlRKS1_       IDASH2017             419e80            2            4
+_ZN4Ring8multDNTTEPN3NTL2ZZEPmS3_lRKS1_       IDASH2017             419e60          104          208
+_ZN4Ring14addNTTAndEqualEPmS0_l       IDASH2017             419e30           12           24
+_ZN4Ring3CRTEPmPN3NTL2ZZEl       IDASH2017             419e20           70          140
+_ZN10Ciphertext4copyERS_       IDASH2017             418cd0            3      2516392
+_ZN10Ciphertext10copyParamsERS_       IDASH2017             418cb0           46          322
+  _ZN10CiphertextC2Elll       IDASH2017             4189c0           16      5071536
+    _ZN10CiphertextD2Ev       IDASH2017             418860           16     18775797
+_ZN6TestGD11testEncNLGDEPPdS1_lllbllddb       IDASH2017             4144a0            0           18
+_ZN3NTL15BasicThreadPool6workerEPNS0_15CompositeSignalIPNS0_14ConcurrentTaskElEE       IDASH2017             412330            0        16518
+      _Z12startProfilei       IDASH2017             40e6a0            1            5
+_ZN3NTL13PartitionInfoC1Ell       IDASH2017             40e5d0           54         1596
+_ZN8CipherGD16encNLGDiterationElP10CiphertextS1_S1_Pmlddlllll       IDASH2017             40daf0            1          351
+_ZN8CipherGD10encSigmoidElP10CiphertextS1_RS0_ldllll       IDASH2017             40a650            1          691
+_ZN8CipherGD15encInnerProductER10CiphertextPS0_S2_Pmllll       IDASH2017             409d50            1          448
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN8CipherGD10encSigmoidElP10CiphertextS4_RS3_ldllllEUlllE0_E3runEl       IDASH2017             408280            1          150
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN8CipherGD11encNLGDstepEP10CiphertextS4_S4_dllEUlllE_E3runEl       IDASH2017             407e80            1          127
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN8CipherGD15encInnerProductER10CiphertextPS3_S5_PmllllEUlllE_E3runEl       IDASH2017             4079c0            1          167
+_ZN3NTL15BasicThreadPool18ConcurrentTaskFct1IZN8CipherGD10encSigmoidElP10CiphertextS4_RS3_ldllllEUlllE2_E3runEl       IDASH2017             407890            1          301
+_ZnwmRKSt9nothrow_t@plt       IDASH2017             404970            5            5
+              frexp@plt       IDASH2017             404910           10           10
+pthread_setspecific@plt       IDASH2017             4048e0            5            5
+__cxa_guard_acquire@plt       IDASH2017             4048c0            1            1
+              floor@plt       IDASH2017             404840           10           10
+            realloc@plt       IDASH2017             4047e0       655332       655359
+_ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE@plt       IDASH2017             404780          402          402
+ pthread_mutex_lock@plt       IDASH2017             4046b0          816          816
+         __gmpn_mul@plt       IDASH2017             404670      1179368      1179546
+             malloc@plt       IDASH2017             404600      9173208      9173569
+             _ZdaPv@plt       IDASH2017             4045b0          306          306
+      __gmpn_rshift@plt       IDASH2017             404580      7725774      7727676
+               free@plt       IDASH2017             404560      9171962      9172006
+       __gmpn_add_n@plt       IDASH2017             404430      6705095      6705122
+pthread_mutex_unlock@plt       IDASH2017             404330          814          814
+__cxa_guard_release@plt       IDASH2017             4042a0            1            1
+     __gmpn_tdiv_qr@plt       IDASH2017             404290     17169394     17169771
+    __gmpn_addmul_1@plt       IDASH2017             404270    396156364    396186257
+ pthread_key_create@plt       IDASH2017             404230            1            1
+             memset@plt       IDASH2017             404200          110          110
+_ZNSt18condition_variable10notify_oneEv@plt       IDASH2017             4041c0          408          408
+       __gmpn_sub_n@plt       IDASH2017             404110     13733334     13733711
+      __gmpn_lshift@plt       IDASH2017             404060           20           20
+               ceil@plt       IDASH2017             403ff0           51           51
+              _Znam@plt       IDASH2017             403fb0          306          306
+                   .plt       IDASH2017             403fa0            1            2

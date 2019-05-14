@@ -1,0 +1,21 @@
+              Procedure           Image            Address        Calls Instructions
+                  cfree       libc.so.6       7f1865e474f0            1           26
+          __libc_malloc       libc.so.6       7f1865e47130            1           46
+           __gmpn_sub_n    libgmp.so.10       7f1866ca2b10        65560      5965960
+           __gmpn_add_n    libgmp.so.10       7f1866ca2670       131072     11927552
+_Z12_ntl_gaddmodP17_ntl_gbigint_bodyS0_S0_PS0_       TestHEAAN             458560       131072      4587616
+_Z12_ntl_gsubposP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             453560        65560      4064720
+_Z9_ntl_gaddP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             452150       131072     11403264
+_Z13_ntl_gcompareP17_ntl_gbigint_bodyS0_       TestHEAAN             451bb0       131072      2883584
+_Z10_ntl_gcopyP17_ntl_gbigint_bodyPS0_       TestHEAAN             450a40            1          140
+_Z10_ntl_gfreeP17_ntl_gbigint_body       TestHEAAN             450a00            1            9
+_Z15_ntl_gsetlengthPP17_ntl_gbigint_bodyl       TestHEAAN             44fe10            1           45
+_ZN6Scheme11addAndEqualER10CiphertextS1_       TestHEAAN             423400            1           39
+_ZN4Ring11addAndEqualEPN3NTL2ZZES2_RKS1_       TestHEAAN             416d30            2      1179686
+_ZN10TestScheme14testProfileInsElllPc       TestHEAAN             406da0            0            6
+        _Z10endProfilei       TestHEAAN             406280            2            8
+      _Z12startProfilei       TestHEAAN             406270            3           12
+             malloc@plt       TestHEAAN             404440            1            1
+               free@plt       TestHEAAN             4043b0            1            1
+       __gmpn_add_n@plt       TestHEAAN             404250       131072       131072
+       __gmpn_sub_n@plt       TestHEAAN             403f20        65560        65560

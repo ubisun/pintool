@@ -1,0 +1,74 @@
+              Procedure           Image            Address        Calls Instructions
+                 munmap       libc.so.6       7fcb5e6ed740            7           35
+                 mmap64       libc.so.6       7fcb5e6ed680            7          231
+                 __sbrk       libc.so.6       7fcb5e6e8e80          253         7084
+                    brk       libc.so.6       7fcb5e6e8e10          253         3036
+     __default_morecore       libc.so.6       7fcb5e6738c0          253         1771
+                realloc       libc.so.6       7fcb5e6706c0       131074     10354846
+                  cfree       libc.so.6       7fcb5e6704f0       327695      8520217
+          __libc_malloc       libc.so.6       7fcb5e670130       327695     15073935
+                  _Znam  libstdc++.so.6       7fcb5f19c280           13           13
+                  _Znwm  libstdc++.so.6       7fcb5f19c1d0           13          143
+                 _ZdaPv  libstdc++.so.6       7fcb5f19a350           13           13
+                 _ZdlPv  libstdc++.so.6       7fcb5f19a320           13           13
+               free@plt  libstdc++.so.6       7fcb5f1933b0           13           13
+             _ZdlPv@plt  libstdc++.so.6       7fcb5f192cc0           13           13
+             malloc@plt  libstdc++.so.6       7fcb5f192af0           13           13
+              _Znwm@plt  libstdc++.so.6       7fcb5f192690           13           13
+     __gmpn_invert_limb    libgmp.so.10       7fcb5f4fa4c0       327680     13107200
+           __gmpn_copyi    libgmp.so.10       7fcb5f4fa286       458752     12845056
+    __gmpn_sbpi1_div_qr    libgmp.so.10       7fcb5f4efc20       327680    414520744
+         __gmpn_tdiv_qr    libgmp.so.10       7fcb5f4d40f0       655360    160866630
+    __gmpn_mul_basecase    libgmp.so.10       7fcb5f4c9a00       458752    378667008
+             __gmpn_mul    libgmp.so.10       7fcb5f4c3cc0       458752     18350080
+          __gmpn_rshift    libgmp.so.10       7fcb5f4c1c80       327680     48758784
+          __gmpn_lshift    libgmp.so.10       7fcb5f4c1a60      1769472    180617216
+        __gmpn_submul_1    libgmp.so.10       7fcb5f4c1210      6684760    821177344
+        __gmpn_addmul_1    libgmp.so.10       7fcb5f4c1100     16384000   5324800000
+           __gmpn_sub_n    libgmp.so.10       7fcb5f4c0b10      1408810    161982802
+           __gmpn_add_n    libgmp.so.10       7fcb5f4c0670       262044     25357814
+_Z9_ntl_gmodP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             4596e0       655360      1966080
+_Z9_ntl_gdivP17_ntl_gbigint_bodyS0_PS0_S1_       TestHEAAN             459050       655360     97811507
+_Z12_ntl_gaddmodP17_ntl_gbigint_bodyS0_S0_PS0_       TestHEAAN             4585c0       262144      9175688
+_Z20_ntl_quick_accum_endP17_ntl_gbigint_body       TestHEAAN             455e50       327680      4915200
+_Z23_ntl_quick_accum_muladdP17_ntl_gbigint_bodyS0_l       TestHEAAN             455df0     16384000    425984000
+_Z22_ntl_quick_accum_beginPP17_ntl_gbigint_bodyl       TestHEAAN             455d60       327680     74055680
+_Z33_ntl_general_rem_one_struct_applyP17_ntl_gbigint_bodylP27_ntl_general_rem_one_struct       TestHEAAN             455120     15073280   2939289600
+_Z12_ntl_gsubposP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             453560        65698      4073276
+_Z9_ntl_gsubP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             453030       327400     35686600
+_Z9_ntl_gaddP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             452180       262144     23592143
+_Z12_ntl_grshiftP17_ntl_gbigint_bodylPS0_       TestHEAAN             451d10       131072      8912896
+_Z13_ntl_gcompareP17_ntl_gbigint_bodyS0_       TestHEAAN             451c20       589824     11388165
+_Z12_ntl_gnegatePP17_ntl_gbigint_body       TestHEAAN             451a60       131072       655360
+_Z10_ntl_gcopyP17_ntl_gbigint_bodyPS0_       TestHEAAN             450af0       786434    165641915
+_Z10_ntl_gfreeP17_ntl_gbigint_body       TestHEAAN             4506f0       327682      2949138
+_Z15_ntl_gsetlengthPP17_ntl_gbigint_bodyl       TestHEAAN             44fae0       458756     22479056
+_ZN6Scheme12multAndEqualER10CiphertextS1_       TestHEAAN             424480            1      1868096
+_ZN14RingMultiplier8multDNTTEPN3NTL2ZZEPmS3_lRKS1_       TestHEAAN             41d5f0            5    393272009
+_ZN14RingMultiplier11reconstructEPN3NTL2ZZEPmlRKS1_       TestHEAAN             41bce0            5    525433940
+_ZN14RingMultiplier14addNTTAndEqualEPmS0_l       TestHEAAN             41bc30            2     46792330
+_ZN14RingMultiplier3CRTEPmPN3NTL2ZZEl       TestHEAAN             41b6e0            5    150737145
+_ZN14RingMultiplier4INTTEPml       TestHEAAN             41a790          250   4144204484
+_ZN14RingMultiplier3NTTEPml       TestHEAAN             41a520          230   3504627419
+_ZN4Ring18rightShiftAndEqualEPN3NTL2ZZEl       TestHEAAN             417820            2       917532
+_ZN4Ring11subAndEqualEPN3NTL2ZZES2_RKS1_       TestHEAAN             416ae0            2      2490420
+_ZN4Ring11addAndEqualEPN3NTL2ZZES2_RKS1_       TestHEAAN             4169b0            2      1179686
+_ZN4Ring8multDNTTEPN3NTL2ZZEPmS3_lRKS1_       TestHEAAN             416510            5          135
+_ZN4Ring14addNTTAndEqualEPmS0_l       TestHEAAN             4164a0            2           46
+_ZN4Ring3CRTEPmPN3NTL2ZZEl       TestHEAAN             416450            5          115
+_ZN10TestScheme14testProfileInsElllPc       TestHEAAN             406f00            0            7
+        _Z10endProfilei       TestHEAAN             406130          515         1545
+      _Z12startProfilei       TestHEAAN             406120          516         1548
+            realloc@plt       TestHEAAN             404610       131074       131074
+             malloc@plt       TestHEAAN             404440       327682       327682
+             _ZdaPv@plt       TestHEAAN             404400           13           13
+      __gmpn_rshift@plt       TestHEAAN             4043d0       131072       131072
+               free@plt       TestHEAAN             4043b0       327682       327682
+       __gmpn_add_n@plt       TestHEAAN             404250       163936       163936
+     __gmpn_tdiv_qr@plt       TestHEAAN             4040c0       655360       655360
+    __gmpn_addmul_1@plt       TestHEAAN             4040a0     16384000     16384000
+             memset@plt       TestHEAAN             404010            5            5
+       __gmpn_sub_n@plt       TestHEAAN             403f20       491306       491306
+               ceil@plt       TestHEAAN             403e10            2            4
+              _Znam@plt       TestHEAAN             403dd0           13           13
+                   .plt       TestHEAAN             403dc0            1            2

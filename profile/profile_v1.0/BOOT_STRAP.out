@@ -1,0 +1,152 @@
+              Procedure           Image            Address        Calls Instructions
+                 munmap       libc.so.6       7fa083666740            1            5
+                 mmap64       libc.so.6       7fa083666680            1           33
+                 __sbrk       libc.so.6       7fa083661e80         4377       122520
+                    brk       libc.so.6       7fa083661e10         4373        52476
+     __default_morecore       libc.so.6       7fa0835ec8c0         4377        30639
+                realloc       libc.so.6       7fa0835e96c0       524289     41418831
+                  cfree       libc.so.6       7fa0835e94f0     10683294    277765669
+          __libc_malloc       libc.so.6       7fa0835e9130     10814372    497461107
+  __pthread_setspecific libpthread.so.0       7fa08393d360            2           68
+   __pthread_key_create libpthread.so.0       7fa08393d230            2          423
+                  frexp       libm.so.6       7fa083d8eb80           14          322
+                   log2       libm.so.6       7fa083d8e830            3           12
+          __log2_finite       libm.so.6       7fa083d866d0            3          108
+                  _Znam  libstdc++.so.6       7fa084100280          633          633
+    _ZnwmRKSt9nothrow_t  libstdc++.so.6       7fa084100230            2           34
+                  _Znwm  libstdc++.so.6       7fa0841001d0          633         6963
+    __cxa_guard_release  libstdc++.so.6       7fa0840fffb0            2           30
+    __cxa_guard_acquire  libstdc++.so.6       7fa0840ffe30            2           60
+                 _ZdaPv  libstdc++.so.6       7fa0840fe350          631          631
+                 _ZdlPv  libstdc++.so.6       7fa0840fe320          631          631
+               free@plt  libstdc++.so.6       7fa0840f73b0          631          631
+             _ZdlPv@plt  libstdc++.so.6       7fa0840f6cc0          631          631
+             malloc@plt  libstdc++.so.6       7fa0840f6af0          635          635
+              _Znwm@plt  libstdc++.so.6       7fa0840f6690          633          633
+     __gmpn_invert_limb    libgmp.so.10       7fa0844704c0      8847367    353894680
+           __gmpn_copyi    libgmp.so.10       7fa084470286     33226763    736887404
+    __gmpn_sbpi1_div_qr    libgmp.so.10       7fa084465c20      8585220  10290320124
+         __gmpn_tdiv_qr    libgmp.so.10       7fa08444a0f0     35651591   9863212409
+    __gmpn_mul_basecase    libgmp.so.10       7fa08443fa00     33488896  15195308032
+             __gmpn_mul    libgmp.so.10       7fa084439cc0     33488896   1339555840
+        __gmpn_divrem_2    libgmp.so.10       7fa084438980       131072     15728640
+        __gmpn_divrem_1    libgmp.so.10       7fa084438760       131075      7340428
+          __gmpn_rshift    libgmp.so.10       7fa084437c80     11599921   1481773065
+          __gmpn_lshift    libgmp.so.10       7fa084437a60    103219243   6090268101
+        __gmpn_submul_1    libgmp.so.10       7fa084437210    186774303  20087971332
+        __gmpn_addmul_1    libgmp.so.10       7fa084437100    587005976 165828952928
+           __gmpn_mul_1    libgmp.so.10       7fa084436fe6           20          780
+           __gmpn_sub_n    libgmp.so.10       7fa084436b10     91177563   7041237428
+           __gmpn_add_n    libgmp.so.10       7fa084436670     17632390   1369868889
+    _Z13_ntl_IsFinitePd       TestHEAAN             468350           28          392
+_Z12_ntl_gmulmodP17_ntl_gbigint_bodyS0_S0_PS0_       TestHEAAN             45bc60       524288     22020124
+_Z9_ntl_gmulP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             45a3d0       524308     44493558
+_Z9_ntl_gmodP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             4598f0     35127296    105381888
+_Z9_ntl_gdivP17_ntl_gbigint_bodyS0_PS0_S1_       TestHEAAN             459260     35651591   5317567071
+_Z12_ntl_gaddmodP17_ntl_gbigint_bodyS0_S0_PS0_       TestHEAAN             4587d0     15466500    551439840
+_Z13_ntl_gdoubtozdPP17_ntl_gbigint_body       TestHEAAN             457450           14         1479
+_Z20_ntl_quick_accum_endP17_ntl_gbigint_body       TestHEAAN             456060     17367040    252641280
+_Z23_ntl_quick_accum_muladdP17_ntl_gbigint_bodyS0_l       TestHEAAN             456000    587005952  15262154752
+_Z22_ntl_quick_accum_beginPP17_ntl_gbigint_bodyl       TestHEAAN             455f70     17367040   2849636352
+_Z33_ntl_general_rem_one_struct_applyP17_ntl_gbigint_bodylP27_ntl_general_rem_one_struct       TestHEAAN             455330    395116544  71025979710
+_Z22_ntl_ground_correctionP17_ntl_gbigint_bodyll       TestHEAAN             453f00           27          624
+_Z12_ntl_gsubposP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             453770      6394710    396845400
+_Z9_ntl_gsubP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             453240     16490091   1792941081
+_Z10_ntl_gsaddP17_ntl_gbigint_bodylPS0_       TestHEAAN             4528c0           12          516
+_Z9_ntl_gaddP17_ntl_gbigint_bodyS0_PS0_       TestHEAAN             452390     15466500   1326177516
+_Z12_ntl_glshiftP17_ntl_gbigint_bodylPS0_       TestHEAAN             452150           30         2084
+_Z13_ntl_gmakeoddPP17_ntl_gbigint_body       TestHEAAN             4520c0           29         3849
+_Z12_ntl_grshiftP17_ntl_gbigint_bodylPS0_       TestHEAAN             451f20      9044024    613544256
+_Z9_ntl_gabsPP17_ntl_gbigint_body       TestHEAAN             451f00           14           98
+_Z13_ntl_gcompareP17_ntl_gbigint_bodyS0_       TestHEAAN             451e30     32833540    688001362
+_Z11_ntl_gintozlPP17_ntl_gbigint_body       TestHEAAN             451c80           14          350
+_Z12_ntl_gnegatePP17_ntl_gbigint_body       TestHEAAN             451c70      2982044     14910220
+_Z10_ntl_g2logP17_ntl_gbigint_body       TestHEAAN             451700       131151      2885322
+_Z9_ntl_goddP17_ntl_gbigint_body       TestHEAAN             4511d0           57          456
+_Z9_ntl_gonePP17_ntl_gbigint_body       TestHEAAN             451160            1           24
+_Z10_ntl_gcopyP17_ntl_gbigint_bodyPS0_       TestHEAAN             450d00     41382577   6891472623
+_Z10_ntl_gfreeP17_ntl_gbigint_body       TestHEAAN             450900     10682663     96143967
+_Z15_ntl_gsetlengthPP17_ntl_gbigint_bodyl       TestHEAAN             44fcf0     11338026    517551216
+_ZN3NTL3divERNS_2RREdRKS0_       TestHEAAN             43aff0            4          113
+_ZN3NTL3divERNS_2RRERKS0_d       TestHEAAN             439a60            3           63
+_ZN3NTL3divERNS_2RRERKS0_S3_       TestHEAAN             439350            7          805
+_ZN3NTL9RoundToZZERNS_2ZZERKNS_2RRE       TestHEAAN             438b20            8          288
+_ZN3NTL3mulERNS_2RRERKS0_d       TestHEAAN             4373b0            8          168
+ _ZN3NTL4convERNS_2RREd       TestHEAAN             437010           15          641
+_ZN3NTL3mulERNS_2RRERKS0_S3_       TestHEAAN             436890           20          560
+_ZN3NTL8ConvPrecERNS_2RRERKS0_l       TestHEAAN             435c00            8          192
+_ZN3NTL6MakeRRERNS_2RRERKNS_2ZZEl       TestHEAAN             435ad0            8          120
+_ZN3NTLL10normalize1ERNS_2RRERKNS_2ZZElll       TestHEAAN             4358d0           57         2887
+_ZN6Scheme15evalExpAndEqualER10Ciphertextll       TestHEAAN             42eb90            1          326
+_ZN6Scheme14exp2piAndEqualER10Ciphertextl       TestHEAAN             42d6b0            1          649
+_ZN6Scheme19slotToCoeffAndEqualER10Ciphertext       TestHEAAN             429c50            1         2115
+_ZN6Scheme19coeffToSlotAndEqualER10Ciphertext       TestHEAAN             4286e0            1         2115
+_ZN6Scheme17normalizeAndEqualER10Ciphertext       TestHEAAN             4285d0            1      1276351
+_ZN6Scheme9conjugateER10CiphertextS1_       TestHEAAN             427a90            2      2490748
+_ZN6Scheme22leftRotateFastAndEqualER10Ciphertextl       TestHEAAN             4274f0           14     17435458
+_ZN6Scheme14leftRotateFastER10CiphertextS1_l       TestHEAAN             426e60           18     22417069
+_ZN6Scheme17modDownToAndEqualER10Ciphertextl       TestHEAAN             426da0            1           37
+_ZN6Scheme16divByPo2AndEqualER10Ciphertextl       TestHEAAN             426990            1           18
+_ZN6Scheme21multByPolyNTTAndEqualER10CiphertextPmll       TestHEAAN             426550            1           55
+_ZN6Scheme13multByPolyNTTER10CiphertextS1_Pmll       TestHEAAN             4262d0           65         4095
+_ZN6Scheme19multByConstAndEqualER10CiphertextRN3NTL2RREl       TestHEAAN             425f30            4          204
+_ZN6Scheme14squareAndEqualER10Ciphertext       TestHEAAN             4254f0            8     14944408
+_ZN6Scheme6squareER10CiphertextS1_       TestHEAAN             424e10            2      3736116
+_ZN6Scheme12multAndEqualER10CiphertextS1_       TestHEAAN             424690            3      5604288
+_ZN6Scheme16addConstAndEqualER10CiphertextRN3NTL2RREl       TestHEAAN             4237f0            1           45
+_ZN6Scheme8addConstER10CiphertextS1_RN3NTL2RREl       TestHEAAN             4234a0            3          153
+_ZN6Scheme11addAndEqualER10CiphertextS1_       TestHEAAN             4232c0           16          624
+_ZN14RingMultiplier9squareNTTEPN3NTL2ZZEPmlRKS1_       TestHEAAN             41f6f0           20    984692233
+_ZN14RingMultiplier15multNTTAndEqualEPN3NTL2ZZEPmlRKS1_       TestHEAAN             41e790            2     54527435
+_ZN14RingMultiplier8multDNTTEPN3NTL2ZZEPmS3_lRKS1_       TestHEAAN             41d8d0          113   9600710545
+_ZN14RingMultiplier7multNTTEPN3NTL2ZZES2_PmlRKS1_       TestHEAAN             41d090          130   4618099724
+_ZN14RingMultiplier11reconstructEPN3NTL2ZZEPmlRKS1_       TestHEAAN             41bfe0          265  19121081372
+_ZN14RingMultiplier14addNTTAndEqualEPmS0_l       TestHEAAN             41bf60            6    124779583
+_ZN14RingMultiplier3CRTEPmPN3NTL2ZZEl       TestHEAAN             41ba20           79   2491094622
+_ZN14RingMultiplier4INTTEPml       TestHEAAN             41aaf0         8957 148478388313
+_ZN14RingMultiplier3NTTEPml       TestHEAAN             41a890         6029  91866738946
+_ZN4Ring9conjugateEPN3NTL2ZZES2_       TestHEAAN             417da0            4      5767172
+_ZN4Ring10leftRotateEPN3NTL2ZZES2_l       TestHEAAN             417c30           64     95949056
+_ZN4Ring18rightShiftAndEqualEPN3NTL2ZZEl       TestHEAAN             417bf0          138     63309294
+_ZN4Ring19multByConstAndEqualEPN3NTL2ZZERS1_RKS1_       TestHEAAN             417880            8      4194432
+_ZN4Ring11subAndEqualEPN3NTL2ZZES2_RKS1_       TestHEAAN             416ec0           10     12452060
+_ZN4Ring11addAndEqualEPN3NTL2ZZES2_RKS1_       TestHEAAN             416da0          226    133303840
+_ZN4Ring11modAndEqualEPN3NTL2ZZERKS1_       TestHEAAN             416ae0            6      2752578
+_ZN4Ring9squareNTTEPN3NTL2ZZEPmlRKS1_       TestHEAAN             416990           20           40
+_ZN4Ring15multNTTAndEqualEPN3NTL2ZZEPmlRKS1_       TestHEAAN             416970            2            4
+_ZN4Ring8multDNTTEPN3NTL2ZZEPmS3_lRKS1_       TestHEAAN             416950          113          226
+_ZN4Ring7multNTTEPN3NTL2ZZES2_PmlRKS1_       TestHEAAN             416940          130          260
+_ZN4Ring14addNTTAndEqualEPmS0_l       TestHEAAN             416920            6           12
+_ZN4Ring3CRTEPmPN3NTL2ZZEl       TestHEAAN             416910           79          158
+_ZN14EvaluatorUtils11scaleUpToZZERKN3NTL2RREl       TestHEAAN             415960            8          224
+_ZN10Ciphertext4copyERS_       TestHEAAN             415070            7      5963895
+_ZN10Ciphertext10copyParamsERS_       TestHEAAN             415050           87          609
+  _ZN10CiphertextC2Elll       TestHEAAN             414d60           24      7865640
+    _ZN10CiphertextD1Ev       TestHEAAN             414c00           23     27132594
+_ZN10TestScheme20testBootstrapProfileEllll       TestHEAAN             411d70            0          203
+        _Z10endProfilei       TestHEAAN             406200            4           16
+      _Z12startProfilei       TestHEAAN             4061f0            5           20
+_ZnwmRKSt9nothrow_t@plt       TestHEAAN             404770            2            2
+              frexp@plt       TestHEAAN             404720           14           14
+pthread_setspecific@plt       TestHEAAN             404700            2            2
+__cxa_guard_acquire@plt       TestHEAAN             4046e0            2            2
+              floor@plt       TestHEAAN             404650           14           14
+            realloc@plt       TestHEAAN             404610       524289       524289
+               log2@plt       TestHEAAN             404530            3            5
+         __gmpn_mul@plt       TestHEAAN             4044b0       524288       524290
+             malloc@plt       TestHEAAN             404440     10813737     10813737
+             _ZdaPv@plt       TestHEAAN             404400          631          631
+      __gmpn_rshift@plt       TestHEAAN             4043d0      9044024      9044024
+               free@plt       TestHEAAN             4043b0     10682663     10682663
+       __gmpn_add_n@plt       TestHEAAN             404250     13102954     13102954
+__cxa_guard_release@plt       TestHEAAN             4040d0            2            2
+     __gmpn_tdiv_qr@plt       TestHEAAN             4040c0     35651591     35651591
+    __gmpn_addmul_1@plt       TestHEAAN             4040a0    587005976    587005976
+ pthread_key_create@plt       TestHEAAN             404050            2            2
+             memset@plt       TestHEAAN             404010          395          395
+       __gmpn_sub_n@plt       TestHEAAN             403f20     25248347     25248347
+      __gmpn_lshift@plt       TestHEAAN             403e60           24           24
+       __gmpn_mul_1@plt       TestHEAAN             403e20           20           20
+               ceil@plt       TestHEAAN             403e10          126          126
+              _Znam@plt       TestHEAAN             403dd0          633          633
+                   .plt       TestHEAAN             403dc0            2            4
